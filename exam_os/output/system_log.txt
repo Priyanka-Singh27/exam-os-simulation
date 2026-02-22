@@ -1,127 +1,120 @@
 === EXAM OS SIMULATION LOG ===
 
-[ 1659914 ms] [INFO ] [SCHEDULER ] Scheduler initialized
-[ 1659915 ms] [INFO ] [MEMORY    ] Memory subsystem initialized
-[ 1659915 ms] [INFO ] [IO        ] I/O buffer initialized
-[ 1659915 ms] [INFO ] [INTERRUPT ] Interrupt vector table initialized (4 handlers)
-[ 1659915 ms] [INFO ] [SCHEDULER ] Scheduler thread started
-[ 1659915 ms] [INFO ] [MEMORY    ] Memory thread started
-[ 1659915 ms] [INFO ] [IO        ] I/O buffer thread started
-[ 1659915 ms] [INFO ] [INTERRUPT ] Interrupt handler thread started
-[ 1660816 ms] [INFO ] [SCHEDULER ] PID 1 added to ready queue (remaining=92 ticks)
-[ 1660816 ms] [INFO ] [SCHEDULER ] PID 2 added to ready queue (remaining=100 ticks)
-[ 1660816 ms] [INFO ] [SCHEDULER ] PID 3 added to ready queue (remaining=98 ticks)
-[ 1660816 ms] [INFO ] [SCHEDULER ] PID 4 added to ready queue (remaining=95 ticks)
-[ 1660816 ms] [INFO ] [SCHEDULER ] PID 5 added to ready queue (remaining=100 ticks)
-[ 1660816 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 1
-[ 1660817 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 4
-[ 1660817 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 0
-[ 1660918 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 3
-[ 1661016 ms] [INFO ] [IO        ] PID 1 submitted Q8
-[ 1661119 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 6
-[ 1661317 ms] [INFO ] [IO        ] PID 1 submitted Q2
-[ 1661319 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 5
-[ 1661417 ms] [INFO ] [IO        ] Flushed 2 submissions to disk
-[ 1661420 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 2
-[ 1661517 ms] [INFO ] [IO        ] PID 1 submitted Q1
-[ 1661721 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 7
-[ 1661867 ms] [INFO ] [SCHEDULER ] PID 6 added to ready queue (remaining=98 ticks)
-[ 1661867 ms] [INFO ] [SCHEDULER ] PID 7 added to ready queue (remaining=100 ticks)
-[ 1661867 ms] [INFO ] [SCHEDULER ] PID 8 added to ready queue (remaining=94 ticks)
-[ 1661867 ms] [INFO ] [SCHEDULER ] PID 9 added to ready queue (remaining=93 ticks)
-[ 1661867 ms] [INFO ] [SCHEDULER ] PID 10 added to ready queue (remaining=100 ticks)
-[ 1661917 ms] [INFO ] [IO        ] PID 1 submitted Q2
-[ 1662317 ms] [INFO ] [IO        ] PID 1 submitted Q9
-[ 1662518 ms] [INFO ] [IO        ] PID 1 submitted Q5
-[ 1662818 ms] [WARN ] [IO        ] SUBMISSION STORM triggered — 30 simultaneous submissions!
-[ 1662818 ms] [INFO ] [IO        ] PID 1 submitted Q2
-[ 1662818 ms] [INFO ] [IO        ] PID 2 submitted Q4
-[ 1662818 ms] [INFO ] [IO        ] PID 3 submitted Q1
-[ 1662818 ms] [INFO ] [IO        ] PID 4 submitted Q10
-[ 1662818 ms] [INFO ] [IO        ] PID 5 submitted Q1
-[ 1662818 ms] [INFO ] [IO        ] PID 6 submitted Q2
-[ 1662818 ms] [INFO ] [IO        ] PID 7 submitted Q1
-[ 1662818 ms] [INFO ] [IO        ] PID 8 submitted Q6
-[ 1662818 ms] [INFO ] [IO        ] PID 9 submitted Q5
-[ 1662818 ms] [INFO ] [IO        ] PID 10 submitted Q6
-[ 1662818 ms] [INFO ] [IO        ] Flushed 14 submissions to disk
-[ 1663118 ms] [INFO ] [IO        ] PID 1 submitted Q10
-[ 1663569 ms] [INFO ] [SCHEDULER ] PID 1 terminated
-[ 1663569 ms] [INFO ] [SCHEDULER ] PID 1 completed exam (PRIORITY)
-[ 1663719 ms] [INFO ] [IO        ] PID 9 submitted Q5
-[ 1663723 ms] [WARN ] [MEMORY    ] Page fault: PID 8 page 0
-[ 1663724 ms] [WARN ] [MEMORY    ] Page fault: PID 8 page 5
-[ 1663820 ms] [INFO ] [SCHEDULER ] PID 11 added to ready queue (remaining=92 ticks)
-[ 1663820 ms] [INFO ] [SCHEDULER ] PID 12 added to ready queue (remaining=99 ticks)
-[ 1663820 ms] [INFO ] [SCHEDULER ] PID 13 added to ready queue (remaining=100 ticks)
-[ 1663820 ms] [INFO ] [SCHEDULER ] PID 14 added to ready queue (remaining=97 ticks)
-[ 1663820 ms] [INFO ] [SCHEDULER ] PID 15 added to ready queue (remaining=91 ticks)
-[ 1663824 ms] [WARN ] [MEMORY    ] Page fault: PID 8 page 3
-[ 1663825 ms] [WARN ] [MEMORY    ] Page fault: PID 8 page 4
-[ 1663926 ms] [WARN ] [MEMORY    ] Page fault: PID 8 page 1
-[ 1663926 ms] [WARN ] [MEMORY    ] Page fault: PID 8 page 7
-[ 1664027 ms] [WARN ] [MEMORY    ] Page fault: PID 8 page 2
-[ 1664119 ms] [INFO ] [IO        ] PID 9 submitted Q9
-[ 1664320 ms] [INFO ] [IO        ] Flushed 3 submissions to disk
-[ 1664428 ms] [WARN ] [MEMORY    ] Page fault: PID 8 page 6
-[ 1664620 ms] [INFO ] [IO        ] PID 9 submitted Q5
-[ 1664872 ms] [INFO ] [SCHEDULER ] PID 16 added to ready queue (remaining=94 ticks)
-[ 1664872 ms] [INFO ] [SCHEDULER ] PID 17 added to ready queue (remaining=96 ticks)
-[ 1664872 ms] [INFO ] [SCHEDULER ] PID 18 added to ready queue (remaining=92 ticks)
-[ 1664872 ms] [INFO ] [SCHEDULER ] PID 19 added to ready queue (remaining=94 ticks)
-[ 1664872 ms] [INFO ] [SCHEDULER ] PID 20 added to ready queue (remaining=100 ticks)
-[ 1664920 ms] [INFO ] [IO        ] PID 9 submitted Q9
-[ 1665220 ms] [INFO ] [IO        ] PID 9 submitted Q4
-[ 1665320 ms] [INFO ] [IO        ] PID 9 submitted Q1
-[ 1665421 ms] [INFO ] [IO        ] PID 9 submitted Q4
-[ 1665821 ms] [INFO ] [IO        ] Flushed 5 submissions to disk
-[ 1666021 ms] [INFO ] [IO        ] PID 9 submitted Q10
-[ 1666424 ms] [INFO ] [SCHEDULER ] PID 9 terminated
-[ 1666424 ms] [INFO ] [SCHEDULER ] PID 9 completed exam (PRIORITY)
-[ 1666522 ms] [INFO ] [IO        ] PID 9 submitted Q9
-[ 1666530 ms] [WARN ] [MEMORY    ] Page fault: PID 14 page 0
-[ 1666531 ms] [WARN ] [MEMORY    ] Page fault: PID 14 page 7
-[ 1666632 ms] [WARN ] [MEMORY    ] Page fault: PID 14 page 6
-[ 1666632 ms] [WARN ] [MEMORY    ] Page fault: PID 14 page 2
-[ 1666733 ms] [WARN ] [MEMORY    ] Page fault: PID 14 page 1
-[ 1666734 ms] [WARN ] [MEMORY    ] Page fault: PID 14 page 3
-[ 1666825 ms] [INFO ] [SCHEDULER ] PID 21 added to ready queue (remaining=96 ticks)
-[ 1666825 ms] [INFO ] [SCHEDULER ] PID 22 added to ready queue (remaining=100 ticks)
-[ 1666825 ms] [INFO ] [SCHEDULER ] PID 23 added to ready queue (remaining=100 ticks)
-[ 1666825 ms] [INFO ] [SCHEDULER ] PID 24 added to ready queue (remaining=94 ticks)
-[ 1666825 ms] [INFO ] [SCHEDULER ] PID 25 added to ready queue (remaining=98 ticks)
-[ 1666834 ms] [WARN ] [MEMORY    ] Page fault: PID 14 page 4
-[ 1666922 ms] [INFO ] [IO        ] PID 15 submitted Q8
-[ 1667222 ms] [INFO ] [IO        ] PID 15 submitted Q8
-[ 1667322 ms] [INFO ] [IO        ] Flushed 4 submissions to disk
-[ 1667535 ms] [WARN ] [MEMORY    ] Page fault: PID 14 page 5
-[ 1667623 ms] [INFO ] [IO        ] PID 15 submitted Q6
-[ 1667723 ms] [INFO ] [IO        ] PID 15 submitted Q7
-[ 1667876 ms] [INFO ] [SCHEDULER ] PID 26 added to ready queue (remaining=95 ticks)
-[ 1667876 ms] [INFO ] [SCHEDULER ] PID 27 added to ready queue (remaining=93 ticks)
-[ 1667876 ms] [INFO ] [SCHEDULER ] PID 28 added to ready queue (remaining=92 ticks)
-[ 1667876 ms] [INFO ] [SCHEDULER ] PID 29 added to ready queue (remaining=95 ticks)
-[ 1667876 ms] [INFO ] [SCHEDULER ] PID 30 added to ready queue (remaining=100 ticks)
-[ 1667923 ms] [INFO ] [IO        ] PID 15 submitted Q9
-[ 1668623 ms] [INFO ] [IO        ] PID 15 submitted Q3
-[ 1668824 ms] [INFO ] [IO        ] PID 15 submitted Q2
-[ 1668824 ms] [INFO ] [IO        ] Flushed 5 submissions to disk
-[ 1668924 ms] [INFO ] [IO        ] PID 15 submitted Q9
-[ 1669224 ms] [INFO ] [IO        ] PID 15 submitted Q6
-[ 1669278 ms] [INFO ] [SCHEDULER ] PID 15 terminated
-[ 1669278 ms] [INFO ] [SCHEDULER ] PID 15 completed exam (PRIORITY)
-[ 1669324 ms] [INFO ] [IO        ] PID 15 submitted Q6
-[ 1669424 ms] [INFO ] [IO        ] PID 18 submitted Q8
-[ 1669438 ms] [WARN ] [MEMORY    ] Page fault: PID 17 page 4
-[ 1669538 ms] [WARN ] [MEMORY    ] Page fault: PID 17 page 0
-[ 1669539 ms] [WARN ] [MEMORY    ] Page fault: PID 17 page 1
-[ 1669624 ms] [INFO ] [IO        ] PID 18 submitted Q10
-[ 1669639 ms] [WARN ] [MEMORY    ] Page fault: PID 17 page 5
-[ 1669828 ms] [INFO ] [SCHEDULER ] PID 31 added to ready queue (remaining=100 ticks)
-[ 1669828 ms] [INFO ] [SCHEDULER ] PID 32 added to ready queue (remaining=91 ticks)
-[ 1669828 ms] [INFO ] [SCHEDULER ] PID 33 added to ready queue (remaining=92 ticks)
-[ 1669828 ms] [INFO ] [SCHEDULER ] PID 34 added to ready queue (remaining=97 ticks)
-[ 1669828 ms] [INFO ] [SCHEDULER ] PID 35 added to ready queue (remaining=99 ticks)
-[ 1669840 ms] [WARN ] [MEMORY    ] Page fault: PID 17 page 2
-[ 1669841 ms] [WARN ] [MEMORY    ] Page fault: PID 17 page 7
-[ 1669841 ms] [WARN ] [MEMORY    ] Page fault: PID 17 page 6
+[  434760 ms] [INFO ] [SCHEDULER ] Scheduler initialized
+[  434760 ms] [INFO ] [MEMORY    ] Memory subsystem initialized
+[  434761 ms] [INFO ] [IO        ] I/O buffer initialized
+[  434761 ms] [INFO ] [INTERRUPT ] Interrupt vector table initialized (4 handlers)
+[  434761 ms] [INFO ] [INTERRUPT ] Interrupt handler thread started
+[  434761 ms] [INFO ] [SCHEDULER ] Scheduler thread started
+[  434761 ms] [INFO ] [MEMORY    ] Memory thread started
+[  434761 ms] [INFO ] [IO        ] I/O buffer thread started
+[  435762 ms] [INFO ] [SCHEDULER ] PID 1 added to ready queue (remaining=94 ticks)
+[  435762 ms] [INFO ] [SCHEDULER ] PID 2 added to ready queue (remaining=97 ticks)
+[  435762 ms] [INFO ] [SCHEDULER ] PID 3 added to ready queue (remaining=99 ticks)
+[  435762 ms] [INFO ] [SCHEDULER ] PID 4 added to ready queue (remaining=97 ticks)
+[  435762 ms] [INFO ] [SCHEDULER ] PID 5 added to ready queue (remaining=99 ticks)
+[  435763 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 4
+[  435764 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 5
+[  435862 ms] [INFO ] [IO        ] PID 1 submitted Q8
+[  435864 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 0
+[  435965 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 1
+[  436263 ms] [INFO ] [IO        ] Flushed 1 submissions to disk
+[  436363 ms] [INFO ] [IO        ] PID 1 submitted Q9
+[  436366 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 3
+[  436463 ms] [INFO ] [IO        ] PID 1 submitted Q10
+[  436466 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 6
+[  436563 ms] [INFO ] [IO        ] PID 1 submitted Q3
+[  436763 ms] [INFO ] [IO        ] PID 1 submitted Q10
+[  436767 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 2
+[  437064 ms] [INFO ] [IO        ] PID 1 submitted Q2
+[  437364 ms] [INFO ] [IO        ] PID 1 submitted Q2
+[  437368 ms] [WARN ] [MEMORY    ] Page fault: PID 0 page 7
+[  437464 ms] [INFO ] [IO        ] PID 1 submitted Q5
+[  437714 ms] [INFO ] [SCHEDULER ] PID 6 added to ready queue (remaining=94 ticks)
+[  437714 ms] [INFO ] [SCHEDULER ] PID 7 added to ready queue (remaining=96 ticks)
+[  437714 ms] [INFO ] [SCHEDULER ] PID 8 added to ready queue (remaining=96 ticks)
+[  437714 ms] [INFO ] [SCHEDULER ] PID 9 added to ready queue (remaining=94 ticks)
+[  437714 ms] [INFO ] [SCHEDULER ] PID 10 added to ready queue (remaining=93 ticks)
+[  437764 ms] [WARN ] [IO        ] SUBMISSION STORM triggered — 30 simultaneous submissions!
+[  437764 ms] [INFO ] [IO        ] PID 1 submitted Q10
+[  437764 ms] [INFO ] [IO        ] PID 2 submitted Q3
+[  437764 ms] [INFO ] [IO        ] PID 3 submitted Q2
+[  437764 ms] [INFO ] [IO        ] PID 4 submitted Q3
+[  437764 ms] [INFO ] [IO        ] PID 5 submitted Q10
+[  437764 ms] [INFO ] [IO        ] PID 6 submitted Q1
+[  437764 ms] [INFO ] [IO        ] PID 7 submitted Q1
+[  437764 ms] [INFO ] [IO        ] PID 8 submitted Q6
+[  437764 ms] [INFO ] [IO        ] PID 9 submitted Q4
+[  437764 ms] [INFO ] [IO        ] PID 10 submitted Q7
+[  437764 ms] [INFO ] [IO        ] Flushed 17 submissions to disk
+[  437864 ms] [INFO ] [IO        ] PID 1 submitted Q3
+[  438465 ms] [INFO ] [IO        ] PID 1 submitted Q6
+[  438515 ms] [INFO ] [SCHEDULER ] PID 1 terminated
+[  438515 ms] [INFO ] [SCHEDULER ] PID 1 completed exam (PRIORITY)
+[  438670 ms] [WARN ] [MEMORY    ] Page fault: PID 9 page 3
+[  438770 ms] [WARN ] [MEMORY    ] Page fault: PID 9 page 5
+[  438865 ms] [INFO ] [IO        ] PID 10 submitted Q9
+[  438871 ms] [WARN ] [MEMORY    ] Page fault: PID 9 page 2
+[  438972 ms] [WARN ] [MEMORY    ] Page fault: PID 9 page 0
+[  438972 ms] [WARN ] [MEMORY    ] Page fault: PID 9 page 7
+[  439066 ms] [INFO ] [IO        ] PID 10 submitted Q10
+[  439073 ms] [WARN ] [MEMORY    ] Page fault: PID 9 page 4
+[  439166 ms] [INFO ] [IO        ] PID 10 submitted Q5
+[  439266 ms] [INFO ] [IO        ] PID 10 submitted Q8
+[  439266 ms] [INFO ] [IO        ] Flushed 6 submissions to disk
+[  439275 ms] [WARN ] [MEMORY    ] Page fault: PID 9 page 1
+[  439376 ms] [WARN ] [MEMORY    ] Page fault: PID 9 page 6
+[  439667 ms] [INFO ] [IO        ] PID 10 submitted Q7
+[  439667 ms] [INFO ] [SCHEDULER ] PID 11 added to ready queue (remaining=99 ticks)
+[  439667 ms] [INFO ] [SCHEDULER ] PID 12 added to ready queue (remaining=98 ticks)
+[  439667 ms] [INFO ] [SCHEDULER ] PID 13 added to ready queue (remaining=100 ticks)
+[  439667 ms] [INFO ] [SCHEDULER ] PID 14 added to ready queue (remaining=91 ticks)
+[  439667 ms] [INFO ] [SCHEDULER ] PID 15 added to ready queue (remaining=92 ticks)
+[  439767 ms] [INFO ] [IO        ] PID 10 submitted Q6
+[  439967 ms] [INFO ] [IO        ] PID 10 submitted Q9
+[  440167 ms] [INFO ] [IO        ] PID 10 submitted Q1
+[  440568 ms] [INFO ] [IO        ] PID 10 submitted Q2
+[  440668 ms] [INFO ] [IO        ] Flushed 5 submissions to disk
+[  440718 ms] [INFO ] [SCHEDULER ] PID 16 added to ready queue (remaining=98 ticks)
+[  440718 ms] [INFO ] [SCHEDULER ] PID 17 added to ready queue (remaining=97 ticks)
+[  440718 ms] [INFO ] [SCHEDULER ] PID 18 added to ready queue (remaining=99 ticks)
+[  440718 ms] [INFO ] [SCHEDULER ] PID 19 added to ready queue (remaining=93 ticks)
+[  440718 ms] [INFO ] [SCHEDULER ] PID 20 added to ready queue (remaining=97 ticks)
+[  441168 ms] [INFO ] [IO        ] PID 10 submitted Q9
+[  441369 ms] [INFO ] [SCHEDULER ] PID 10 terminated
+[  441369 ms] [INFO ] [SCHEDULER ] PID 10 completed exam (PRIORITY)
+[  441478 ms] [WARN ] [MEMORY    ] Page fault: PID 13 page 5
+[  441569 ms] [INFO ] [IO        ] PID 14 submitted Q9
+[  441579 ms] [WARN ] [MEMORY    ] Page fault: PID 13 page 4
+[  441669 ms] [INFO ] [IO        ] PID 14 submitted Q7
+[  441679 ms] [WARN ] [MEMORY    ] Page fault: PID 13 page 3
+[  441780 ms] [WARN ] [MEMORY    ] Page fault: PID 13 page 6
+[  441869 ms] [INFO ] [IO        ] PID 14 submitted Q1
+[  441881 ms] [WARN ] [MEMORY    ] Page fault: PID 13 page 0
+[  441981 ms] [WARN ] [MEMORY    ] Page fault: PID 13 page 1
+[  442169 ms] [INFO ] [IO        ] PID 14 submitted Q6
+[  442169 ms] [INFO ] [IO        ] Flushed 5 submissions to disk
+[  442269 ms] [INFO ] [IO        ] PID 14 submitted Q7
+[  442382 ms] [WARN ] [MEMORY    ] Page fault: PID 13 page 7
+[  442670 ms] [INFO ] [SCHEDULER ] PID 21 added to ready queue (remaining=92 ticks)
+[  442670 ms] [INFO ] [SCHEDULER ] PID 22 added to ready queue (remaining=98 ticks)
+[  442670 ms] [INFO ] [SCHEDULER ] PID 23 added to ready queue (remaining=94 ticks)
+[  442670 ms] [INFO ] [SCHEDULER ] PID 24 added to ready queue (remaining=99 ticks)
+[  442670 ms] [INFO ] [SCHEDULER ] PID 25 added to ready queue (remaining=98 ticks)
+[  442683 ms] [WARN ] [MEMORY    ] Page fault: PID 13 page 2
+[  443670 ms] [INFO ] [IO        ] PID 14 submitted Q8
+[  443671 ms] [INFO ] [IO        ] Flushed 2 submissions to disk
+[  443721 ms] [INFO ] [SCHEDULER ] PID 26 added to ready queue (remaining=94 ticks)
+[  443721 ms] [INFO ] [SCHEDULER ] PID 27 added to ready queue (remaining=93 ticks)
+[  443721 ms] [INFO ] [SCHEDULER ] PID 28 added to ready queue (remaining=92 ticks)
+[  443721 ms] [INFO ] [SCHEDULER ] PID 29 added to ready queue (remaining=95 ticks)
+[  443721 ms] [INFO ] [SCHEDULER ] PID 30 added to ready queue (remaining=99 ticks)
+[  443871 ms] [INFO ] [IO        ] PID 14 submitted Q2
+[  444222 ms] [INFO ] [SCHEDULER ] PID 14 terminated
+[  444222 ms] [INFO ] [SCHEDULER ] PID 14 completed exam (PRIORITY)
+[  444371 ms] [INFO ] [IO        ] PID 21 submitted Q8
+[  444385 ms] [WARN ] [MEMORY    ] Page fault: PID 20 page 2
+[  444385 ms] [WARN ] [MEMORY    ] Page fault: PID 20 page 0
+[  444486 ms] [WARN ] [MEMORY    ] Page fault: PID 20 page 5
+[  444587 ms] [WARN ] [MEMORY    ] Page fault: PID 20 page 7
+[  444587 ms] [WARN ] [MEMORY    ] Page fault: PID 20 page 6

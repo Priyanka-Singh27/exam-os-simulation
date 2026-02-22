@@ -2,14 +2,14 @@
 ║       EXAM OS SIMULATION REPORT          ║
 ╠══════════════════════════════════════════╣
 ║ CPU                                      ║
-║   Context Switches  : 61                 ║
+║   Context Switches  : 60                 ║
 ║   Completed Exams   : 3                  ║
 ║   Timeouts Fired    : 0                  ║
 ╠══════════════════════════════════════════╣
 ║ MEMORY                                   ║
-║   Page Faults       : 31                 ║
-║   Page Hits         : 151                ║
-║   Hit Rate          : 83.0             % ║
+║   Page Faults       : 29                 ║
+║   Page Hits         : 148                ║
+║   Hit Rate          : 83.6             % ║
 ╠══════════════════════════════════════════╣
 ║ I/O BUFFER                               ║
 ║   Total Submissions : 38                 ║
